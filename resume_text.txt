@@ -1,0 +1,88 @@
+Bidisha Bhowal
+Education
+Master of Technology in Industrial Biotechnology (2015 -2017)
+Delhi Technological University…………………………………………………………………………………………………………………………………………………….CGPA 9.05
+Bachelor of Technology in Biotechnology (2011 -2015)
+Bengal College of Engineering and Technology, West Bengal University of Technology........................................... ........................CGPA 9.26
+All India Senior School Certificate Examination (2009 -2011)
+Central Board of Secondary Education…………………………………………………………………………………………………………………………………………86%
+All India Secondary School Examination (2008 -2009)
+Central Board of Secondary Education…………………………………………………………………………………………………………….............................90.5%
+Experience
+Worked  as a Project  Associate  I (JRF)  at the International  Centre  for Genetic  Engineering  and Biotechnology,  
+New  Delhi  in a DBT-sponsored  project  under  the mentorship  of Prof . S.K. Sopory,  Emeritus  Scientist,  ICGEB  
+from  December  2017  to February  2021 .
+Key Responsibilities : including  but not limited  to designing  and conducting  experiments,  RNA  isolation,  cDNA  
+synthesis,  quantitative  real-time  PCR,  biochemical  techniques,  report  writing,  and manuscript  writing . 
+Published  2 research  articles,  2 review  articles,  and 1 book  chapter  during  this tenure
+Skills
+•Technical  skills : Molecular  techniques : DNA,  RNA,  plasmid  isolation  and extraction,  PCR,  Standardization  
+and optimization  of protein  isolation,  over -expression,  purification,  and characterization  through  western  
+blotting,  Biochemical  characterization  using  enzyme  activity  assays,  Abiotic  stress  assays,  Transcriptome  
+data  analysis,  miRNA  identification,  primer  designing,  and expression  analysis  using  qRT-PCR techniques,  
+Microbiological  techniques  like bacterial  isolation,  especially  PGPRs  (Plant  growth  promoting  rhizobacteria)  
+from  different  samples,  plant -microbe  interaction,  bioformulation,  identification  using  16srRNA  
+sequencing,  chemotaxis  assay,  stress  treatments  and analysis  using  biochemical  assays,  Basics  of tissue  
+culture  and microscopy .
+•Computational  skills : Bioinformatics  including  genome  mining,  gene  identification,  in silico  analysis  through  
+publicly  available  online  tools  and packages,  Molecular  docking  using  open  access  tools,  Molecular  dynamic  
+simulation  using  both  GROMACS  and Schrödinger's  Molecular  Modeling  Suite,  Basics  of R and Python  3.0
+•Soft Skills : Adaptability,  problem -solving,  troubleshooting,  time  management,  collaboration,  active  
+listening,  team  player,  keen  attention  to detail .
+Awards and Recognition
+•Qualified GATE(BT) 2015 with AIR 393 and GATE percentile 95.6%
+•Qualified CSIR -Direct SRF 2021 
+Additional Experience
+•Peer reviewed 3 research articles for PeerJ , Plant Gene, and the Journal of Applied Genetics (Springer Nature)I am an engineer  with  a specialization  in Biotechnology . I hold  an M. Tech  in Industrial  Biotechnology . I have  over  five years  of research  
+experience  working  in the field  of molecular  and cell biology,  biochemistry,  and bioinformatics . I have  previously  worked  as a Project  
+Associate  I on a DBT-sponsored  project  at ICGEB,  New  Delhi,  where  I designed,  planned,  and executed  experiments,  contributed  extensively  
+to scientific  data  and report  writing,  and managed  laboratory  operations . I am currently  awaiting  my PhD  defence .
+Training, Workshop, and Conferences
+•Bhowal,  B., Hasija,  Y. & Singla -Pareek,  S.L. Do glyoxalases  contribute  to the innate  stress  tolerance  of wild 
+rice?  International  Conference  on Biochemical  and Biotechnological  Approaches  for Crop  Improvement  
+(IBBACI  2023 ), NASC  Complex,  New  Delhi . 2023
+•Bhowal,  B., Hasija,  Y. & Singla -Pareek,  S.L. A pan-genome  survey  of GLYI  and GLYII  proteins  across  wild and 
+cultivated  rice varieties  provides  crucial  insights  into their  evolution  and role in stress  tolerance . Vistas  in 
+Life Sciences  (2024 ): An International  Conference  on Frontiers  of Life Sciences : From  Molecules,  
+Organisms  & Diseases,  School  of Life Sciences,  Jawaharlal  Nehru  University,  New  Delhi,  India . 2024
+•ÄKTA  FPLC  Training  Workshop,  ICGEB,  New  Delhi
+•Cloud -based  Hands -on Workshop : Rational  Computational  Drug  Design  Approaches  jointly  organized  by 
+Schrödinger  and ICGEB,  New  Delhi .
+•International  Summit  on Women  in STEM–“Visualizing  the Future : New  Skylines  jointly  organized  by DBT 
+and ICGEB,  New  Delhi  
+•One-week  online  workshop  on Intellectual  Property  Rights  and Entrepreneurship  Development  (IPRED  
+2020 ) organized  by NIT Silchar
+Publications
+•Bhowal,  B., Hasija,  Y., & Singla -Pareek,  S. L. (2024 ). Tracing  the intraspecies  expansion  of glyoxalase  genes  and 
+their  expanding  roles  across  the genus  Oryza .Functional  & integrative  genomics ,24(6), 220. 
+https ://doi .org/ 10.1007 /s10142 -024-01492 -y
+•Garai , S., Bhowal,  B*., Gupta,  M., Sopory,  S. K., Singla -Pareek,  S. L., Pareek,  A., & Kaur,  C. (2024 ). Role  of 
+methylglyoxal  and redox  homeostasis  in microbe -mediated  stress  mitigation  in plants . Plant  science  : an 
+international  journal  of experimental  plant  biology,  338, 111922 . 
+https ://doi .org/ 10.1016 /j.plantsci .2023 .111922
+•Chatterjee,  Y., Bhowal,  B., Gupta,  K. J., Pareek,  A., & Singla -Pareek,  S. L. (2023 ). Lactate  Dehydrogenase  
+Superfamily  in Rice and Arabidopsis : Understanding  the Molecular  Evolution  and Structural  Diversity . 
+International  journal  of molecular  sciences,  24(6), 5900 . https ://doi .org/ 10.3390 /ijms 24065900
+•Gaba , Y., Bhowal,  B., Pareek,  A., & Singla -Pareek,  S. L. (2023 ). Genomic  Survey  of Flavin  Monooxygenases  in 
+Wild  and Cultivated  Rice Provides  Insight  into Evolution  and Functional  Diversities . International  journal  of 
+molecular  sciences,  24(4), 4190 . https ://doi .org/ 10.3390 /ijms 24044190
+•Bhowal,  B., Bhattacharjee , A., Goswami , K., Sanan -Mishra,  N., Singla -Pareek,  S. L., Kaur,  C., & Sopory,  S. (2021 ). 
+Serotonin  and Melatonin  Biosynthesis  in Plants : Genome -Wide  Identification  of the Genes  and Their  Expression  
+Reveal  a Conserved  Role  in Stress  and Development . International  journal  of molecular  sciences,  22(20), 11034 . 
+https ://doi .org/ 10.3390 /ijms 222011034
+•Garai , S., Bhowal,  B*., Kaur,  C., Singla -Pareek,  S. L., & Sopory,  S. K. (2021 ). What  signals  the glyoxalase  pathway  
+in plants? . Physiology  and molecular  biology  of plants  : an international  journal  of functional  plant  biology,  
+27(10), 2407–2420 . https ://doi .org/ 10.1007 /s12298 -021-00991 -7
+•Garai,  S., Bhowal,  B., Pareek,  A. et al. Expression  dynamics  of glyoxalase  genes  under  high  temperature  stress  in 
+plants . Plant  Physiol . Rep. 25, 533–548 (2020 ). https ://doi .org/ 10.1007 /s40502 -020-00545 -1
+•Bhowal,  B., Singla -Pareek,  S. L., Sopory,  S. K., & Kaur,  C. (2020 ). From  methylglyoxal  to pyruvate : a genome -wide  
+study  for the identification  of glyoxalases  and D-lactate  dehydrogenases  in Sorghum  bicolor . BMC  genomics,  
+21(1), 145. https ://doi .org/ 10.1186 /s12864 -020-6547 -7
+•Bhowal,  B., Chandra,  P., Saxena , S.C. (2021 ). Engineering  Glycine  Betaine  Biosynthesis  in Alleviating  Abiotic  
+Stress  Effects  in Plants . In: Wani , S.H., Gangola , M.P., Ramadoss , B.R. (eds) Compatible  Solutes  Engineering  for 
+Crop  Plants  Facing  Climate  Change . Springer,  Cham . https ://doi .org/ 10.1007 /978-3-030-80674 -3_4
+•*Equal  contribution
+Contact Information
+•Email id: bidisha63@gmail.com
+•LinkedIn profile id: https://www.linkedin.com/in/bidisha -bhowal -36b35673/Freelancing
+•Assessed state of the art LLMs based on their educational capabilities.
