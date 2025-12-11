@@ -29,9 +29,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
     e.preventDefault();
     const targetId = this.getAttribute('href');
-    
+
     if (targetId === '#') return;
-    
+
     const targetElement = document.querySelector(targetId);
     if (targetElement) {
       const headerOffset = 80;
@@ -52,7 +52,7 @@ let lastScroll = 0;
 
 window.addEventListener('scroll', () => {
   const currentScroll = window.pageYOffset;
-  
+
   if (currentScroll > 50) {
     header.style.background = 'rgba(10, 10, 10, 0.95)';
     header.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.3)';
@@ -60,7 +60,7 @@ window.addEventListener('scroll', () => {
     header.style.background = 'rgba(10, 10, 10, 0.8)';
     header.style.boxShadow = 'none';
   }
-  
+
   lastScroll = currentScroll;
 });
 
@@ -70,7 +70,7 @@ const contactForm = document.getElementById('contactForm');
 if (contactForm) {
   contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
-    
+
     // Get form data
     const formData = {
       name: document.getElementById('name').value,
@@ -78,18 +78,18 @@ if (contactForm) {
       subject: document.getElementById('subject').value,
       message: document.getElementById('message').value
     };
-    
+
     // Create mailto link with form data
     const mailtoLink = `mailto:bidisha63@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
     )}`;
-    
+
     // Open mail client
     window.location.href = mailtoLink;
-    
+
     // Show feedback to user
     showNotification('Opening your email client...', 'success');
-    
+
     // Reset form
     contactForm.reset();
   });
@@ -113,9 +113,9 @@ function showNotification(message, type = 'info') {
     z-index: 10000;
     animation: slideInRight 0.3s ease-out;
   `;
-  
+
   document.body.appendChild(notification);
-  
+
   // Remove notification after 3 seconds
   setTimeout(() => {
     notification.style.animation = 'slideOutRight 0.3s ease-out';
@@ -162,11 +162,11 @@ if (yearSpan) {
 const publicationCards = document.querySelectorAll('.publication-card');
 
 publicationCards.forEach(card => {
-  card.addEventListener('mouseenter', function() {
+  card.addEventListener('mouseenter', function () {
     this.style.transform = 'translateY(-8px)';
   });
-  
-  card.addEventListener('mouseleave', function() {
+
+  card.addEventListener('mouseleave', function () {
     this.style.transform = 'translateY(0)';
   });
 });
@@ -187,7 +187,7 @@ if (hero) {
   window.addEventListener('scroll', () => {
     const scrolled = window.pageYOffset;
     const parallaxSpeed = 0.5;
-    
+
     if (scrolled < window.innerHeight) {
       hero.style.transform = `translateY(${scrolled * parallaxSpeed}px)`;
       hero.style.opacity = 1 - (scrolled / window.innerHeight) * 0.5;
@@ -201,16 +201,16 @@ const navLinks = document.querySelectorAll('.nav-links a');
 
 window.addEventListener('scroll', () => {
   let current = '';
-  
+
   sections.forEach(section => {
     const sectionTop = section.offsetTop;
     const sectionHeight = section.clientHeight;
-    
+
     if (window.pageYOffset >= sectionTop - 100) {
       current = section.getAttribute('id');
     }
   });
-  
+
   navLinks.forEach(link => {
     link.classList.remove('active');
     if (link.getAttribute('href') === `#${current}`) {
@@ -245,16 +245,16 @@ const formInputs = document.querySelectorAll('.form-group input, .form-group tex
 
 formInputs.forEach(input => {
   // Add focus animation
-  input.addEventListener('focus', function() {
+  input.addEventListener('focus', function () {
     this.parentElement.style.transform = 'translateY(-2px)';
   });
-  
-  input.addEventListener('blur', function() {
+
+  input.addEventListener('blur', function () {
     this.parentElement.style.transform = 'translateY(0)';
   });
-  
+
   // Add validation feedback
-  input.addEventListener('input', function() {
+  input.addEventListener('input', function () {
     if (this.validity.valid) {
       this.style.borderColor = 'var(--color-accent-success)';
     } else if (this.value.length > 0) {
@@ -276,21 +276,33 @@ window.addEventListener('load', () => {
   }, 100);
 });
 
-// ===== MOBILE MENU TOGGLE (if needed in future) =====
-// This is a placeholder for mobile menu functionality
-// Uncomment and customize if you add a mobile hamburger menu
-
-/*
+// ===== MOBILE MENU TOGGLE =====
 const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-const navLinks = document.querySelector('.nav-links');
+const navMenu = document.querySelector('.nav-menu');
+const navLinksItems = document.querySelectorAll('.nav-links a');
 
 if (mobileMenuToggle) {
   mobileMenuToggle.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
+    navMenu.classList.toggle('active');
     mobileMenuToggle.classList.toggle('active');
   });
+
+  // Close menu when clicking on a link
+  navLinksItems.forEach(link => {
+    link.addEventListener('click', () => {
+      navMenu.classList.remove('active');
+      mobileMenuToggle.classList.remove('active');
+    });
+  });
+
+  // Close menu when clicking outside
+  document.addEventListener('click', (e) => {
+    if (!navMenu.contains(e.target) && !mobileMenuToggle.contains(e.target)) {
+      navMenu.classList.remove('active');
+      mobileMenuToggle.classList.remove('active');
+    }
+  });
 }
-*/
 
 // ===== CONSOLE MESSAGE =====
 console.log('%c👋 Welcome to Bidisha Bhowal\'s Portfolio', 'color: #3b82f6; font-size: 20px; font-weight: bold;');
@@ -315,12 +327,12 @@ const konamiSequence = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLe
 document.addEventListener('keydown', (e) => {
   konamiCode.push(e.key);
   konamiCode = konamiCode.slice(-10);
-  
+
   if (konamiCode.join(',') === konamiSequence.join(',')) {
     // Activate fun mode
     document.body.style.animation = 'rainbow 5s linear infinite';
     showNotification('🎉 You found the secret! Science is fun!', 'success');
-    
+
     // Add rainbow animation
     const rainbowStyle = document.createElement('style');
     rainbowStyle.textContent = `
@@ -330,7 +342,7 @@ document.addEventListener('keydown', (e) => {
       }
     `;
     document.head.appendChild(rainbowStyle);
-    
+
     // Reset after 5 seconds
     setTimeout(() => {
       document.body.style.animation = '';
