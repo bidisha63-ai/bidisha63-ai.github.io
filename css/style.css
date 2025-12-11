@@ -32,12 +32,12 @@
     --color-text-muted: #52525b;
 
     /* Border & Divider */
-    --color-border: rgba(255, 255, 255, 0.1);
-    --color-border-hover: rgba(255, 255, 255, 0.2);
+    --color-border: transparent;
+    --color-border-hover: transparent;
 
     /* Glass Effect */
     --glass-bg: rgba(255, 255, 255, 0.05);
-    --glass-border: rgba(255, 255, 255, 0.1);
+    --glass-border: transparent;
     --glass-backdrop: blur(10px);
 
     /* Spacing Scale */
@@ -563,7 +563,8 @@ a:hover {
 .highlight-item {
     padding: var(--space-md);
     background: var(--gradient-card);
-    border: none;
+    border: none !important;
+    box-shadow: none !important;
     border-radius: var(--radius-lg);
     text-align: center;
 }
@@ -595,7 +596,7 @@ a:hover {
     top: 0;
     bottom: 0;
     width: 2px;
-    background: var(--gradient-primary);
+    background: transparent;
 }
 
 .timeline-item {
